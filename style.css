@@ -16,7 +16,7 @@ h1, p, a{
     background-image: url('./images/lowcity.jfif');
     background-size: cover;
     background-repeat: none;
-    height: 900px;
+    height: 800px;
     background-position: 50% 50%;
 
 
@@ -68,12 +68,34 @@ nav a {
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-start;
-    height: 900px;
+    height: 800px;
     /* line-height: 500px; */
     width: 70px;
 
 }
 
+.hero-content h1 {
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.hero-content p {
+    color:grey;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.hero-content a {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
 /* font-family: 'Alfa Slab One', cursive;
 font-family: 'Anton', sans-serif;
 font-family: 'Coda Caption', sans-serif;
