@@ -1,0 +1,11 @@
+hero {
+    background-image: 
+        url('../adrians-homepage-layout/images/lowcity.jfif');
+    background-size: cover;
+    background-position:  50% 0%;
+    /* height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px; */
+}
