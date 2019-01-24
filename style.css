@@ -48,9 +48,12 @@ nav {
 }
 
 .logo {
+    background-image: url(./logo/low-logo-05.svg);
+    background-repeat: no-repeat;
     display: flex;
     align-items: flex-start;
-    line-height: 100px;
+    height: 2000px;
+    line-height: 500px;
     width: 80px;
 
 }
