@@ -1,8 +1,9 @@
-hero {
-    background-image: 
-        url('../adrians-homepage-layout/images/lowcity.jfif');
+.hero {
+    background-image: url('./images/lowcity.jfif');
     background-size: cover;
-    background-position:  50% 0%;
+    height: 100vh;
+    background-position:  50% 50%;
+    background-repeat: none;
     /* height: 80vh;
     display: flex;
     flex-direction: column;
