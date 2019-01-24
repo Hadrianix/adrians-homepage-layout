@@ -4,7 +4,7 @@
  /* ************ */
 h1, p, a{
 
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Montserrat', sans-serif;;
 
 }
 
@@ -31,30 +31,46 @@ h1, p, a{
     padding: 0;
     display: flex;
     width: 300px;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: column;
     
 }
 
 nav {
-    width: 100%;
-    height: 100px;
+    width: 200px;
+    height: 900px;
     color: white;
     display: flex;
-    justify-content: space-between;
+    /* align-items: flex-end; */
+
     padding: 0;
+
    
 
 }
 
+li {
+
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+nav a {
+    color: black;
+    padding-left: 17px;
+}
+
+
 .logo {
+
     background-image: url(./logo/low-logo-05.svg);
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-start;
-    height: 2000px;
-    line-height: 500px;
-    width: 80px;
+    height: 900px;
+    /* line-height: 500px; */
+    width: 70px;
 
 }
 
