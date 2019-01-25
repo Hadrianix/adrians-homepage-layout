@@ -59,6 +59,7 @@ li {
 nav a {
     color: black;
     padding-left: 17px;
+    padding-top: 20px;
 }
 
 
@@ -95,6 +96,15 @@ nav a {
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
+}
+
+@media (max-width: 600px) {
+    .hero-content {
+        display: block;
+        /* justify-content: space-evenly; */
+        padding: 20px;
+    }
+
 }
 /* font-family: 'Alfa Slab One', cursive;
 font-family: 'Anton', sans-serif;
