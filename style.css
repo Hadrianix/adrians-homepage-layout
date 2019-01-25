@@ -105,6 +105,12 @@ nav a {
         padding: 0px;
     }
 
+    .hero-content p {
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+
 }
 /* font-family: 'Alfa Slab One', cursive;
 font-family: 'Anton', sans-serif;
