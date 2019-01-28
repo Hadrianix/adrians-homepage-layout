@@ -20,19 +20,22 @@ h1, p, a{
 
 
 }
+
+.desktoplinks {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
 .topbar a {
     margin-top: 1rem;
     margin-right: 10px;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-content: center;
 }
 
-.desktoplinks p {
-    color: white;
-    display: flex;
-    justify-content: center;
-}
+
 
 
 
@@ -62,11 +65,7 @@ h1, p, a{
     /* padding-bottom: 40px; */
 }
 
-/* .wrapper {
-    height: 850px;
-    background-color: red;
-    width: 100%;
-} */
+
 
 .desktop-links {
     margin: 0;
@@ -357,6 +356,23 @@ Main Content
     transition: 0.2s;
 }
 
+@media (max-width: 600px) {
+    .menu-button  {
+        display: block;
+    }
+    .desktoplinks {
+        display: none;
+    }
+
+    .desktoplinks p {
+        display: none;
+    }
+}
+
+.icons ul {
+    justify-content: flex-end;
+}
+
 
 
 /* ****************
@@ -378,6 +394,10 @@ footer {
 
     display: flex;
     justify-content: center;
+}
+
+.footer-box {
+    justify-content: space-around;
 }
 
 
