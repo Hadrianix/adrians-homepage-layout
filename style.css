@@ -196,6 +196,15 @@ i {
 /* ****************
 Main Content
 **************** */
+.main h1 {
+    padding: 30px;
+    padding-bottom: 0;
+}
+.main p {
+    padding: 30px;
+    padding-top: 10px;
+}
+
 
 .wrapper {
     max-width: 800px;
@@ -359,6 +368,11 @@ Main Content
 @media (max-width: 600px) {
     .menu-button  {
         display: block;
+        padding-bottom: 5px;
+    }
+
+    .menu-button svg {
+        padding-bottom: 5px;
     }
     .desktoplinks {
         display: none;
@@ -396,8 +410,9 @@ footer {
     justify-content: center;
 }
 
-.footer-box {
+.footer-box li {
     justify-content: space-around;
+    margin-right: 5px;
 }
 
 
